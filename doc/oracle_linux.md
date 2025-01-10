@@ -1,19 +1,5 @@
 # Guía de Instalación de Oracle Linux
 
-## Introducción
-
-### Oracle Linux
-Oracle Linux es un sistema operativo empresarial basado en Linux, diseñado para ofrecer estabilidad, seguridad y rendimiento óptimo, especialmente en entornos empresariales y en la nube.
-
-### Oracle Database
-Oracle Database es un sistema de gestión de bases de datos relacional ampliamente utilizado. Su versión Express Edition (XE) es gratuita y ligera, ideal para aprender y desarrollar aplicaciones pequeñas.
-
-Esta guía detalla cómo instalar Oracle Linux, configurar Oracle Database XE y utilizar SQL*Plus.
-
----
-
-## Requisitos Previos
-
 ### Hardware Recomendado
 
 - Procesador: x86\_64 compatible
