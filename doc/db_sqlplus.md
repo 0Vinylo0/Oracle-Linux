@@ -57,3 +57,6 @@
 
 ## Recursos Adicionales
 
+- [Documentación Oficial de Oracle Linux](https://docs.oracle.com/en/operating-systems/)
+- [Soporte de Oracle Linux](https://www.oracle.com/support/)
+- [Documentación Oficial de Oracle Database XE](https://docs.oracle.com/en/database/)
