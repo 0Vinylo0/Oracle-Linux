@@ -13,7 +13,7 @@ Guía de instalación de Oracle Linux, Oracle Database XE y SQLplus
 
 ----------------------------------------------------------------------------------------------------------
 
-<img src="img/tux-linux-penguin.gif" alt="GIF" width="300" height="300" align="right">
+<img src="img/oracle.gif" alt="GIF" width="300" height="300" align="right">
   
   1.  [Instalacion de Oracle Linux](doc/oracle_linux.md)
   
