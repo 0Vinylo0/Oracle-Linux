@@ -7,6 +7,8 @@
 - Almacenamiento: Mínimo 10 GB de espacio libre en disco (50 GB recomendados)
 - Conexión a Internet para descargas opcionales
 
+<image src="/img/Captura desde 2025-01-10 10-06-31.png">
+
 ### Software
 
 - Imagen ISO de Oracle Linux (disponible en el [sitio oficial de Oracle Linux](https://www.oracle.com/linux/))
