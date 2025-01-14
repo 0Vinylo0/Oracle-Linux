@@ -28,6 +28,8 @@
 1. Arranque desde la imagen ISO descargada.
 2. Seleccione la opción de instalación de Oracle Linux en el menú de inicio.
 
+<image src="/img/Captura desde 2025-01-10 10-10-37.png">
+
 ---
 
 ## Paso 3: Proceso de Instalación
@@ -48,6 +50,8 @@ En la pantalla principal:
 
 Haga clic en **Comenzar Instalación**.
 
+<image src="img/Captura desde 2025-01-10 10-13-58.png">
+
 ### 4. Configurar Usuarios
 
 Mientras la instalación se ejecuta:
@@ -64,6 +68,8 @@ Mientras la instalación se ejecuta:
 
 ---
 
+<image src="img/Captura desde 2025-01-10 10-30-01.png">
+
 ## Paso 5: Configuración Post-Instalación
 
 ### Actualización del Sistema
@@ -74,6 +80,8 @@ Ejecute los siguientes comandos para actualizar el sistema:
 sudo dnf update -y
 ```
 
+<image src="img/Captura desde 2025-01-14 12-43-33.png">
+
 ### Instalación de Herramientas Adicionales
 
 Dependiendo del uso previsto, instale herramientas adicionales:
@@ -82,6 +90,8 @@ Dependiendo del uso previsto, instale herramientas adicionales:
 sudo dnf install -y vim nano wget curl git
 ```
 
+<image src="img/Captura desde 2025-01-14 12-45-05.png">
+
 ### Habilitar Repositorios de Oracle
 
 Habilite repositorios opcionales si es necesario:
@@ -89,6 +99,8 @@ Habilite repositorios opcionales si es necesario:
 ```bash
 sudo dnf config-manager --enable ol8_addons
 ```
+
+<image src="img/Captura desde 2025-01-14 12-50-34.png">
 
 ---
 
