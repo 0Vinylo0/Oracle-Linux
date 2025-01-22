@@ -4,6 +4,8 @@
 
 1. Descargue Oracle Database Express Edition (XE) desde el [sitio oficial de Oracle](https://www.oracle.com/database/technologies/appdev/xe.html).
 
+<image src="img/Captura desde 2025-01-17 10-15-10.png">
+
 2. Transfiera el archivo descargado al sistema Oracle Linux.
 
 3. Instale el paquete RPM:
@@ -12,11 +14,16 @@
    sudo dnf install -y /ruta/al/archivo.rpm
    ```
 
+<image src="img/Captura desde 2025-01-17 11-14-15.png">
+
+
 4. Configure Oracle Database XE ejecutando el siguiente comando:
 
    ```bash
    sudo /etc/init.d/oracle-xe-21c configure
    ```
+
+<image src="img/Captura desde 2025-01-22 09-33-24.png">
 
    Siga las instrucciones para establecer un puerto de escucha y una contraseña para el usuario SYS/SYSTEM.
 
