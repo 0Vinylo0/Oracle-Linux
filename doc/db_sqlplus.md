@@ -49,6 +49,8 @@
    export ORACLE_SID=XE
 
    ```
+   
+   <image src="/img/Captura desde 2025-01-24 10-30-32.png">
 
 3. Habilitamos los puertos en el firewall del servido de oralce
 
@@ -57,11 +59,17 @@
       sudo firewall-cmd --reload
    ```
 
+   <image src="/img/Captura desde 2025-01-24 10-30-45.png">
+
+   <image src="/img/Captura desde 2025-01-24 10-31-02.png">
+
 5. Conéctese a la base de datos usando SQL\*Plus:
 
    ```bash
    sqlplus SYSTEM@localhost
    ```
+
+   <image src="/img/Captura desde 2025-01-24 12-34-43.png">
 
    Introduzca la contraseña configurada durante la instalación de Oracle XE.
 
