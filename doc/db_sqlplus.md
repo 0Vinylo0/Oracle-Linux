@@ -37,22 +37,27 @@
 
 1. Instale el cliente Oracle Instant Client:
 
-   ```bash
-   sudo dnf install -y oracle-instantclient-release-el8
-   sudo dnf install -y oracle-instantclient-basic oracle-instantclient-sqlplus
-   ```
+   En esta version de oracle ya viene instalado sqlplus solo hay que añadirlo en el `bashrc`
 
 2. Configure las variables de entorno:
 
    ```bash
-   echo "export PATH=\$PATH:/usr/lib/oracle/<version>/client64/bin" >> ~/.bashrc
-   echo "export LD_LIBRARY_PATH=/usr/lib/oracle/<version>/client64/lib" >> ~/.bashrc
-   source ~/.bashrc
+   export PATH=/opt/oracle/product/21c/dbhomeXE/bin:$PATH
+   export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   export PATH=$ORACLE_HOME/bin:$PATH
+   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
+   export ORACLE_SID=XE
+
    ```
 
-   > Reemplace `<version>` con la versión instalada del cliente Oracle.
+3. Habilitamos los puertos en el firewall del servido de oralce
 
-3. Conéctese a la base de datos usando SQL\*Plus:
+   ```bash
+      sudo firewall-cmd --add-port=1521/tcp --permanent
+      sudo firewall-cmd --reload
+   ```
+
+5. Conéctese a la base de datos usando SQL\*Plus:
 
    ```bash
    sqlplus SYSTEM@localhost
