@@ -10,6 +10,12 @@
 
 3. Instale el paquete RPM:
 
+- Antes de instalar el rpm descargado hay que instalar el preinstall con:
+
+   ```bash
+   sudo dnf install -y oracle-database-preinstall-21c
+   ```
+
    ```bash
    sudo dnf install -y /ruta/al/archivo.rpm
    ```
